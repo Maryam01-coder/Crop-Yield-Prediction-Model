@@ -1,0 +1,9 @@
+Why Random Forest performed better
+Linear Regression	Random Forest
+Assumes a linear relationship between features and target	Captures nonlinear relationships
+Sensitive to artificial numerical rankings	Can handle numerical encodings differently
+May struggle with complex crop yield patterns	Can capture interactions between crops, countries, and other features
+
+Your ordinal encoding might be affecting Linear Regression because it assumes a numerical relationship between crops.
+
+Random Forest can often work better with such encodings because it learns decision-based splits rather than fitting a straight-line relationship.
